@@ -21,4 +21,4 @@ img_affineTransform = cv2.warpAffine (img, affine_matrix,(noOfColumns,noOfRows))
 cv2.imshow ('Affine Transform image', img_affineTransform)
 
 cv2.imwrite ('AffineTransfomed.jpg', img_affineTransform)
-cv2.waitKey(0).
+cv2.waitKey(0)
