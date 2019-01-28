@@ -16,5 +16,9 @@ translation_matrix = np.float32 ([[1,0,70],[0,1,110]])
 img_translation = cv2.warpAffine (img, translation_matrix, (numOfColumns, numOfRows), cv2.INTER_LINEAR)
 
 cv2.imshow ('Image Translation', img_translation)
+
+# save the image
+cv2.imwrite ('TranslatedImg.jpg', img_translation)
+
 cv2.waitKey(0)
 
