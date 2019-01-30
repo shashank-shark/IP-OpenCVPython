@@ -1,0 +1,14 @@
+HORIZONTAL EDGE DETECTION
+-------------------------
+
+				[-1 0 1]
+H_KERNEL	=	[-2 0 2]
+				[-1 0 1]
+
+
+VERTICAL EDGE DETECTION
+------------------------
+
+				[-1 -2 -1]
+V_KERNEL	=	[ 0  0  0]
+				[ 1  2  1]
