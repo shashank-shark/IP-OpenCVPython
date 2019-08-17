@@ -8,8 +8,8 @@ Image Processing using open souce OpenCV python library. Python version used 3.7
 There are two ways of installing OpenCV
 | SNO  | TYPE  |  LEVEL |
 |---|---|---|
-| # 1  | Installing using `pip`  | EASY  |
-| # 2  | Building from source  | INTERMEDIATE  |
+| 1  | Installing using `pip`  | EASY  |
+| 2  | Building from source  | INTERMEDIATE  |
 
 > ## #1.1 Installing OpenCV using pip to work with python3
 
